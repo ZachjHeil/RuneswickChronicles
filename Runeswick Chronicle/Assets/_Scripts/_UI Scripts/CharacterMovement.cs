@@ -9,13 +9,13 @@ namespace rSwick
         private CharacterController controller;
         private Vector3 playerVelocity;
         private bool groundedPlayer;
-        private float playerSpeed = 2.0f;
-        private float jumpHeight = 1.0f;
-        private float gravityValue = -9.81f;
+        public float playerSpeed = 2.0f;
+        public float jumpHeight = 1.0f;
+        public float gravityValue = -0;
 
         private void Start()
         {
-            controller = gameObject.AddComponent<CharacterController>();
+            controller = gameObject.GetComponent<CharacterController>();
         }
 
         void Update()

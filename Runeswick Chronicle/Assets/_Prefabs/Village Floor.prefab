@@ -37832,6 +37832,7 @@ GameObject:
   m_Component:
   - component: {fileID: 405679262425427342}
   - component: {fileID: 4957582347207676485}
+  - component: {fileID: 8332988267941421185}
   m_Layer: 0
   m_Name: Village Floor
   m_TagString: Untagged
@@ -37881,8 +37882,22 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 265.38354, y: 4.5984907, z: 269.9895}
-  m_Center: {x: -7.721039, y: -2.062767, z: -122.66965}
+  m_Size: {x: 265.38354, y: 4.960311, z: 269.9895}
+  m_Center: {x: -7.721039, y: -1.8818575, z: -122.66965}
+--- !u!64 &8332988267941421185
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405679262425427341}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &405679262426325848
 GameObject:
   m_ObjectHideFlags: 0
