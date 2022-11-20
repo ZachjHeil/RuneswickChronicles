@@ -1,0 +1,53 @@
+p,h1,h2,h3,h4,h5,label{
+    color: rgb(134, 147, 204);
+}
+#FormDiv
+{
+    background-color: rgb(175, 224, 165);
+    width: 1500px;
+    position: relative;
+    left: 10%;
+    outline: 3px solid black;
+    outline-offset: 1px;
+    border: 0px solid white;
+}
+#headText
+{
+    position: relative;
+    left: 30%;
+}
+#header1
+{
+    position: relative;
+    left: 2%;
+}
+#header
+{
+    position: relative;
+    left: 10%;
+    top: 15px;
+}
+#P1
+{
+    position: relative;
+    left: 24%;
+}
+#S1
+{
+    position: relative;
+    left: 10%;
+}
+#HeaderForm
+{
+    position: relative;
+    left: 100px;
+}
+input[type="text"], textarea 
+{
+    position: relative;
+    left: 100px;
+    background-color: transparent  ;
+    outline: none;
+    padding: 5px;
+    margin: 5px;
+}
