@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b752c84b-2862-4615-91b9-1ae89b9d6bb4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Runeswick Chronicle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Runeswick Chronicle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Plugins/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Prefabs_Humans/HumanMale_Character_FREE.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Plugins/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Prefabs_Humans/HumanMale_Character_FREE.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Village Floor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Village Floor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/ZachWorkingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/ZachWorkingScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/ZachWorkingScene/SkyandFogSettingsProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/ZachWorkingScene/SkyandFogSettingsProfile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/_UI Scripts/CharacterMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/_UI Scripts/CharacterMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-    </list>
+    <list default="true" id="b752c84b-2862-4615-91b9-1ae89b9d6bb4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +27,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="G:\Unity\Editro\2021.3.9f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="D:\Unity\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;D:\ZachWork\RuneswickChronicles\Runeswick Chronicle&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\ZachWork\RuneswickChronicles\Runeswick Chronicle" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -73,6 +65,7 @@
       <updated>1667958908680</updated>
       <workItem from="1667958925813" duration="1863000" />
       <workItem from="1668190710351" duration="2480000" />
+      <workItem from="1669950952723" duration="3000" />
     </task>
     <servers />
   </component>
