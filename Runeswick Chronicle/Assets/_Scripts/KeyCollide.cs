@@ -6,16 +6,17 @@ namespace rSwick
 {
     public class KeyCollide : MonoBehaviour
     {
-        // Start is called before the first frame update
-        void Start()
+       private void OnTriggerEnter(Collider other)
         {
-        
-        }
+            PlayerInventory playerInventory = other.GetComponent<PlayerInventory>();
 
-        // Update is called once per frame
-        void Update()
-        {
-        
+            if (playerInventory != null)
+            {
+                playerInvetory.KeyGet();
+                gameObject.SetActive(false);
+
+            }
+
         }
     }
 }
