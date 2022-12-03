@@ -1,21 +1,26 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace rSwick
 {
-    public class GateExit : MonoBehaviour
+   
+
+    public class GateExit : PlayerInventory
     {
-        // Start is called before the first frame update
-        void Start()
+        private void Update()
         {
-        
+            Debug.Log(Keycollect);
         }
 
-        // Update is called once per frame
-        void Update()
+        [SerializeField] private GameObject Gate;
+        [SerializeField] private Collision playerCol;
+        private void OnTriggerEnter(Collider other)
         {
-        
+            Application.Quit();
+        }
         }
     }
-}
+

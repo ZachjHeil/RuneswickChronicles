@@ -12,7 +12,7 @@ namespace rSwick
 
             if (playerInventory != null)
             {
-                playerInvetory.KeyGet();
+                playerInventory.KeyGet();
                 gameObject.SetActive(false);
 
             }
